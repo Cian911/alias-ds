@@ -21,3 +21,32 @@ Facial Recognition Library
  - Build and serve score based on findings
 
 ## Steps - Profile Score
+
+  - Download alias/ioCMS confirmed contact suggestions
+  - Train model based on this
+  - Add weighted attribtes to network nodes
+
+---
+
+### Alias ML Sample Data
+---
+Platforms
+  - Twitter *
+  - Facebook
+  - Instagram
+  - Youtube
+
+`*` Denotes the original platform the search is being performed on.
+
+#### Unified Response Information from Individual Platforms
+---
+```
+{
+  twitter: {
+    email: 'cian@ciangallagher.net',
+    phone: '08512345643',
+    thumnail_hashes: 'http://img.thumbnail.twitter.com/33243242343242.png',
+    city: 'Dublin, Ireland'
+  }
+}
+```
